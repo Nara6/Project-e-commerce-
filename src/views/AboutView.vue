@@ -28,7 +28,7 @@
     </div>
     <div class="w-full h-[425px] slider mt-4">
       <p class="w-[400px] pt-[100px] ml-[100px] text-center font-bold text-[36px] text-white">Sony WH-1000 <span class="text-[#66EDBF]">XM5</span>  Headphones</p>
-      <img src="../assets/images/hero-img-poster.png" alt="" class="headphone w-full justify-center pl-[100px]">
+      <img src="../assets/images/hero-img-poster.png" alt="" class="headphone justify-center pl-[100px]">
       <div class="w-full flex justify-end pr-[200px] mt-[-100px] text-[36px] font-bold ">
         <div class="text-white font-[250]">
           <span class="font-bold">B</span>e <span class="font-bold">w</span>ith <span class="font-bold">y</span>our <span class="font-bold">o</span>wn <br>
