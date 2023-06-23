@@ -6,7 +6,7 @@
         <p class="flex items-center text-[30px]" style="font-family: 'Roboto', sans-serif;text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">Nara Shop</p>
       </div>
       <div class="flex gap-x-7 items-center text-[20px]" style="font-family: 'Lato', sans-serif;">
-        <a href="/Project-e-commerce-/about">About us</a>
+        <a href="/about">About us</a>
         <a href="#">Categories</a>
         <a href="#">Contact us</a>
       </div>
