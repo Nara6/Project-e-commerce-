@@ -4,7 +4,9 @@
       <p class="best">best product of the day</p>
       <img src="../assets/images/headphone.png" alt="" class="headphone">
       <p class="sony-xm5">sony-xm<span class="text-5">5</span></p>
-      <button class="button-buynow"><span class="text-buynow">BUY NOW</span></button>
+      <router-link to="/product/detail">
+        <button class="button-buynow"><span class="text-buynow">BUY NOW</span></button>
+      </router-link>
       <button class="switch-slider-circle"></button>
       <button class="switch-slider-ellipse"></button>
     </div>
@@ -77,18 +79,22 @@
         <p class="trend">Popular Products</p>
         <a href="#" class="underline underline-offset-2 text-[20px]" style="font-family: 'Roboto',sans-serif; color: #0862CB;">View all Product</a>
       </div>
+      <router-link to="/product/detail">
       <div class="flex justify-between ">
         <div class="w-[310px] h-[370px] bg-gray-200 flex flex-col items-center hover:cursor-pointer" style="box-shadow: 4px 10px 4px rgba(0, 0, 0, 0.25);"><img src="../assets/images/airpod.png" class="w-[300px] h-[320px]" alt=""><span class="text-red-500 text-[30px] font-bold" style="font-family: 'Roboto',sans-serif;">$ 399.99</span></div>
         <div class="w-[310px] h-[370px] bg-gray-200 flex flex-col items-center hover:cursor-pointer" style="box-shadow: 4px 10px 4px rgba(0, 0, 0, 0.25);"><img src="../assets/images/ipad.png" class="w-[300px] h-[320px]" alt=""><span class="text-red-500 text-[30px] font-bold" style="font-family: 'Roboto',sans-serif;">$ 1,099.99</span></div>
         <div class="w-[310px] h-[370px] bg-gray-200 flex flex-col items-center hover:cursor-pointer" style="box-shadow: 4px 10px 4px rgba(0, 0, 0, 0.25);"><img src="../assets/images/asus-laptop.png" class="w-[300px] h-[320px]" alt=""><span class="text-red-500 text-[30px] font-bold" style="font-family: 'Roboto',sans-serif;">$ 899.99</span></div>
         <div class="w-[310px] h-[370px] bg-gray-200 flex flex-col items-center hover:cursor-pointer" style="box-shadow: 4px 10px 4px rgba(0, 0, 0, 0.25);"><img src="../assets/images/iphone-adapter.png" class="w-[350px] h-[320px]" alt=""><span class="text-red-500 text-[30px] font-bold" style="font-family: 'Roboto',sans-serif;">$ 199.99</span></div>
       </div>
+      </router-link>
       <div class="flex justify-between">
         <div class="w-[310px] h-[370px] bg-gray-200 flex flex-col items-center hover:cursor-pointer" style="box-shadow: 4px 10px 4px rgba(0, 0, 0, 0.25);"><img src="../assets/images/airpod.png" class="w-[300px] h-[320px]" alt=""><span class="text-red-500 text-[30px] font-bold" style="font-family: 'Roboto',sans-serif;">$ 399.99</span></div>
         <div class="w-[310px] h-[370px] bg-gray-200 flex flex-col items-center hover:cursor-pointer" style="box-shadow: 4px 10px 4px rgba(0, 0, 0, 0.25);"><img src="../assets/images/ipad.png" class="w-[300px] h-[320px]" alt=""><span class="text-red-500 text-[30px] font-bold" style="font-family: 'Roboto',sans-serif;">$ 1,099.99</span></div>
         <div class="w-[310px] h-[370px] bg-gray-200 flex flex-col items-center hover:cursor-pointer" style="box-shadow: 4px 10px 4px rgba(0, 0, 0, 0.25);"><img src="../assets/images/asus-laptop.png" class="w-[300px] h-[320px]" alt=""><span class="text-red-500 text-[30px] font-bold" style="font-family: 'Roboto',sans-serif;">$ 899.99</span></div>
         <div class="w-[310px] h-[370px] bg-gray-200 flex flex-col items-center hover:cursor-pointer" style="box-shadow: 4px 10px 4px rgba(0, 0, 0, 0.25);"><img src="../assets/images/iphone-adapter.png" class="w-[350px] h-[320px]" alt=""><span class="text-red-500 text-[30px] font-bold" style="font-family: 'Roboto',sans-serif;">$ 199.99</span></div>
       </div>
+      
+      
     </div>
     <div class="mt-[40px] w-full h-[120px] flex" style="background-color: #5599FF;font-family: 'Roboto',sans-serif;">
       <div class="w-[40%] flex flex-col justify-center items-center">
