@@ -1,6 +1,6 @@
 <template>
   <div class="nav flex gap-x-4 mt-4 h-[70px] w-full justify-around">
-    <router-link to="home">
+    <router-link to="/home">
       <div class="flex gap-x-5">
       
       <img src="../assets/images/logo1.png" alt="" class="w-[70px] h-[70px]">
