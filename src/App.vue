@@ -1,24 +1,19 @@
 <template>
   <div>
-    <Checkout @cancel="isCheckingOut = false" v-if="isCheckingOut" />
-    <Index v-else @checkout="isCheckingOut = true" />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import { RouterLink, RouterView } from "vue-router";
-import Index from "./views/Index.vue";
-import Checkout from "./views/Checkout.vue";
 export default {
   data() {
     return {
       isCheckingOut: false,
     };
   },
-  components: {
-    Index,
-    Checkout,
-  },
+  mounted(){
+    this.$router.push({path: '/home'})
+  }
 };
 </script>
 

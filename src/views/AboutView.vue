@@ -1,31 +1,7 @@
 
 <template>
   <div class="wrapper mt-4 w-full">
-    <div class="nav flex gap-x-4 h-[70px] w-full justify-around">
-      <div class="flex gap-x-5">
-        <a href="/"><img src="../assets/images/logo1.png" alt="" class="w-[70px] h-[70px]">
-        </a>
-        <p class="flex items-center text-[30px]" style="font-family: 'Roboto', sans-serif;text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">Nara Shop</p>
-      </div>
-      <div class="flex gap-x-7 items-center text-[20px]" style="font-family: 'Lato', sans-serif;">
-        <a href="#" class="text-blue-500 underline font-bold">About us</a>
-        <a href="#">Categories</a>
-        <a href="#">Contact us</a>
-      </div>
-      <div class="flex gap-x-4">
-        <div class="flex items-center">
-        <img class="absolute h-[27px] ml-1" src="../assets/images/search.svg" alt="">
-        <input type="text" class="bg-gray-300 w-[350px] h-[35px] pl-8 rounded-xl placeholder:text-[13px] placeholder:italic" placeholder="Search">
-      </div>
-      <div class="flex items-center flex-col justify-center">
-        <div class="flex gap-x-3 hover:cursor-pointer">
-          <img src="../assets/images/user_svgrepo.com.svg" alt="" class="h-[35px]">
-          <img src="../assets/images/heart-solid.svg" alt="" class="h-[35px] ">
-          <img src="../assets/images/Vector.svg" alt="" class="h-[35px]">
-        </div>
-      </div>
-      </div>
-    </div>
+
     <div class="w-full h-[425px] slider mt-4">
       <p class="w-[400px] pt-[100px] ml-[100px] text-center font-bold text-[36px] text-white">Sony WH-1000 <span class="text-[#66EDBF]">XM5</span>  Headphones</p>
       <img src="../assets/images/hero-img-poster.png" alt="" class="headphone justify-center pl-[100px]">

@@ -29,7 +29,7 @@
                         <span>Don't have account?</span>
                         <router-link to="/auth/signup" class="text-[#FF2020] "> Create new account</router-link>
                     </div>
-                    <div><router-link to="/" class="text-blue-700">Back</router-link></div>
+                    <div><router-link to="/home" class="text-blue-700">Back</router-link></div>
                 </div>
             </div>
         </div>

@@ -37,7 +37,7 @@
                         <span>Already have a account?</span>
                         <router-link to="/auth/login" class="text-[#FF2020] "> Login</router-link>
                     </div>
-                    <div><router-link to="/" class="text-blue-700">Back</router-link></div>
+                    <div><router-link to="/home" class="text-blue-700">Back</router-link></div>
                 </div>
             </div>
         </div>
